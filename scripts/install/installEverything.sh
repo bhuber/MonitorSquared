@@ -8,7 +8,7 @@ if [[ $(whoami) != "root" ]]; then
 	exit 1;
 fi
 
-apt-get install python-django
+#apt-get install python-django
 apt-get install python-pip
 apt-get install postgresql
 pip install virtualenv
