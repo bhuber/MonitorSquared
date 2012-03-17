@@ -1,3 +1,9 @@
 For details on virtualenv and what it does, see http://tumblr.intranation.com/post/766290325/python-virtualenv-quickstart-django
-To run django, do <TODO: insert django server start command here>
+To activate virtualenv so python, etc maps to the write place:
+cd py
+. venv/bin/activate
+
+To run django, do (after activating virtualenv):
+cd py/monitorsquared
+python manage.py runserver
 
